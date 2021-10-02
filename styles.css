@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #344a72;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #container {
+    /* Max width allows you to control size of div */
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px
+  }
+
+  .form-wrap {
+    background-color: #fff;
+    padding: 15px 25px;
+  }
+
+  .form-wrap h1,
+  .form-wrap p {
+    text-align: center;
+  }
+
+  .form-wrap .form-group {
+    margin-top: 20px;
+    /* color: #666; */
+  }
+
+  .form-wrap .form-group label {
+    display: block;
+  }
+
+  .form-wrap .form-group input {
+    /* 
+      Border property allows you to change the border lines around input
+    */
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+  }
+
+  .form-wrap button {
+    display: block;
+    background-color: #49c1a2;
+    margin: 20px 0;
+    height: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .form-wrap button:hover {
+    background-color: #37a08e;
+    color: #cecece;
+  }
+
+  .form-wrap .bottom-text {
+    font-size: 12px;
+  }
+
+  footer {
+   text-align: center;
+   padding-top: 10px;
+   color: #fff;
+  }
+
+  footer a {
+    /* 
+      Footer link color is #49c1a2
+    */
+    color: #49c1a2;
+  }
